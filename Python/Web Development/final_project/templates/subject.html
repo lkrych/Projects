@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- <link rel = stylesheet type = text/css href = "{{url_for('static', filename = 'styles.css') }}"> -->
+	</head>
+
+	<body>
+
+		<!-- <div class = "container">
+	      <div class = "row">
+	        <div class = "col-md-6"><img src="../cannon.gif"></div>
+	        <div class = "col-md-6 text-right text-uppercase">
+	          <h1>Cannon</h1>
+	          <h3>A Powerful Bibliography</h3>
+	        </div>
+	      </div>
+ -->
+
+		<h1>Articles about {{subject.name}}</h1> <!-- printed code uses double brackets -->
+
+		<!--with returns array of messages and cleans up -->
+
+			{% with messages = get_flashed_messages() %} 
+			{% if messages %}
+
+				<ul>
+					{% for message in messages %}
+						<li><strong> {{message }} </strong></li>
+					{% endfor %}
+				</ul>
+				{% endif %}
+			{% endwith %}
+
+<!-- #link to create new post -->		
+		{% for i in items %} <!-- logical code uses single brackets -->
+
+		<div>
+
+		<h3>{{i.headline}}</h3>
+
+		<p>{{i.abstract}}</p>
+
+		<p> source: {{i.source}} </p>
+
+		<p> wordcount: {{i.wordcount}} </p>
+
+		<p> url: {{i.url}} </p>
+
+		</div>
+
+		<br>
+
+		<!-- use url_for method to link to edit/delete pages for item -->
+
+
+
+		{% endfor %} <!-- keyword to end for loop because indentation is not semanticaly meaningful in html-->
+	</body>
+
+</html>

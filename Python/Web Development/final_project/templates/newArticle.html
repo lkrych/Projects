@@ -1,0 +1,35 @@
+<html>
+	<body>
+		<h1> Add an article!</h1>
+
+		<form action="{{url_for('newArticle', subject_id=subject_id ) }}" method = 'POST'>
+
+			<p>Headline:</p>
+
+			<input type='text' size='50' name='headline'>
+
+			<p>Abstract:</p>
+
+			<input type='text' size='150' name='abstract'>
+
+			<p>Source:</p>
+
+			<input type='text' size='30' name='source'>
+
+			<p>Word Count:</p>
+
+			<input type='int'  name='wordcount'>
+
+			<p>Url:</p>
+
+			<input type='text' size='30' name='url'>
+
+
+			<input type='submit' value='Create'>
+
+			
+
+		</form>
+
+	</body>
+</html>

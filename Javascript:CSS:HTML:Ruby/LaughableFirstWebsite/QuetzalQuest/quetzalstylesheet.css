@@ -1,0 +1,55 @@
+body {
+
+	background-color: #8E3B46;
+	text-align: center;
+	margin: auto;
+}
+@media (min-width: 750px) {
+    body {
+        background-color:#C2EABA ;
+    }
+}
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+.audiobutton {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 130px;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+}
+.slideshow {
+		margin: auto;
+		width:500px;
+		height:332px;
+}
+.slideshow img {
+		 position: center;
+		 left:0; 
+		 top:0;
+}
+div img {
+	width:500px;
+	height:332px;
+}
+
+
+

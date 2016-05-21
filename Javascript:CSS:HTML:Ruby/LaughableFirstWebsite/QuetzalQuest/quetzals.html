@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="quetzalstylesheet.css"/>
+		<title>QuetzalQUEST</title>
+				<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		
+		<img src="http://i.imgur.com/5IO0KKL.png"/>
+
+		<h1>I'm a Quetzal! I'm here to be majestic.</h1><br/><br/>
+
+		<img src = "http://www.periodicoenfoque.com.mx/wp-content/uploads/2013/08/Quetzal.jpg"/>
+		&nbsp
+		
+		<div class = "audiobutton">
+			<a href="https://www.youtube.com/watch?v=q0_4GhgTsTU">Hear me <span>Coo!</span></a>
+		</div>
+		
+		<h2> Watch me Dance!</h2>
+		<div class="slideshow">
+			   
+			     <img src="http://travel.nationalgeographic.com/u/TvyamNb-BivtNwcoxtkc5xGBuGkIMh_nj4UJHQKuoXI32wvH5tpzBk3TeEfahncyqiEV-dQqN6Ok7A/" ;>
+			   
+			   
+			     <img src="https://s-media-cache-ak0.pinimg.com/736x/c1/d3/a0/c1d3a08d1a5aeeb45888aabcfa02ff43.jpg";>
+			   
+			   
+		</div>
+			
+
+<!--Found this slideshow code at http://snook.ca/archives/javascript/simplest-jquery-slideshow
+-->		
+<!-- The :gt() selector selects elements with an index number higher than a specified number. In this case it sellects all img files in slideshow with index higher than 0! So only the second photo(We begin indexing at 0) -->
+<!-- I use the hide function to hide the photo w/ index 0 -->
+<!-- The function then uses setInterval code to and jquery to fade out the first img and fade in the second -->
+<!-- After the cycle is finished, which in this case is after the second picture, the end function resets the cycle -->
+
+		<script type="text/javascript">
+			$(function(){
+		    $('.slideshow img:gt(0)').hide(); 
+		    setInterval(function(){
+		      $('.slideshow :first-child').fadeOut()
+		         .next('img').fadeIn()
+		         .end().appendTo('.slideshow');}, 
+		      3000);
+			});
+
+		</script>
+
+	</body>
+</html>
