@@ -1,5 +1,7 @@
 # Projects
-Projects organized by language used and class taken. 
+Projects organized by language used.
+
+The classes I've taken are:
 
 Python
 
@@ -34,8 +36,5 @@ Web Development
 *	Web Application Development: Basic Concepts – UNM Coursera 
 *	Full Stack Foundations – Udacity
 
-R
 
-*	Foundations of Data Analysis
-*	Statistics and R for the Life Sciences
 
