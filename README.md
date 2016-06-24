@@ -1,6 +1,8 @@
 # Projects
 Projects organized by language used.
 
+To see my R code, please visit https://rpubs.com/lkrych
+
 The classes I've taken are:
 
 Python
@@ -30,6 +32,7 @@ Java
 
 Web Development
 
+* Agile Development using Ruby on Rails - UC Berkeley edX
 *	Responsive Website Basics – UC London Coursera
 *	Responsive Web Design – UC London Coursera
 *	HTML, CSS AND JavaScript – UHK Coursera
