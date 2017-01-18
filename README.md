@@ -5,6 +5,12 @@ To see my R code, please visit https://rpubs.com/lkrych
 
 The classes I've taken are:
 
+Computer Science
+
+* CS50 - Harvard edX
+* Divide and Conquer, Sorting and Searching, and Randomized Algorithms - Stanford Coursera
+
+
 Python
 
 * Introduction to Computer Science and Programming Using Python – MIT edX
@@ -32,7 +38,8 @@ Java
 
 Web Development
 
-* Agile Development using Ruby on Rails - UC Berkeley edX
+* Agile Development using Ruby on Rails: Advanced - UC Berkeley edX
+* Agile Development using Ruby on Rails: The Basics - UC Berkeley edX
 *	Responsive Website Basics – UC London Coursera
 *	Responsive Web Design – UC London Coursera
 *	HTML, CSS AND JavaScript – UHK Coursera
